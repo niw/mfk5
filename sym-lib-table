@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Pro_Micro")(type "KiCad")(uri "${KIPRJMOD}/Library/Pro_Micro/Pro_Micro.kicad_sym")(options "")(descr ""))
+)

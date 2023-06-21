@@ -1,0 +1,7 @@
+*-backups/
+*-cache
+*.kicad_prl
+*.zip
+.DS_Store
+/Orders
+/Production
