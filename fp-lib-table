@@ -2,4 +2,6 @@
   (version 7)
   (lib (name "Gateron_Low_Profile")(type "KiCad")(uri "${KIPRJMOD}/Library/Gateron_Low_Profile")(options "")(descr ""))
   (lib (name "Pro_Micro")(type "KiCad")(uri "${KIPRJMOD}/Library/Pro_Micro")(options "")(descr ""))
+  (lib (name "Button_Switch_Additions")(type "KiCad")(uri "${KIPRJMOD}/Library/Button_Switch_Additions")(options "")(descr ""))
+  (lib (name "Connector_Additions")(type "KiCad")(uri "${KIPRJMOD}/Library/Connector_Additions")(options "")(descr ""))
 )

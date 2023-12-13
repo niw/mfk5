@@ -7,8 +7,8 @@
   (paper "A4")
   (title_block
     (title "mfk5 Middle Plate")
-    (date "2023-11-23")
-    (rev "2")
+    (date "2023-12-15")
+    (rev "3")
     (company "@niw")
   )
 
@@ -98,6 +98,36 @@
   )
 
   (net 0 "")
+
+  (footprint "" (layer "F.Cu")
+    (tstamp 058294a7-2bbe-4061-8599-03532d523d32)
+    (at 174.46 95.05)
+    (fp_text reference "REF**" (at 0 0) (layer "F.SilkS") hide
+        (effects (font (size 1.27 1.27) (thickness 0.15)))
+      (tstamp a723f9e8-491d-4e49-94d9-29feac0a8c94)
+    )
+    (fp_text value "" (at 0 0) (layer "F.SilkS") hide
+        (effects (font (size 1.27 1.27) (thickness 0.15)))
+      (tstamp c2b6c042-5430-49ae-b343-1baa983dfe40)
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 2.4 2.4) (drill 2.4) (layers "F&B.Cu" "*.Mask")
+      (pinfunction "Pin_1") (pintype "passive") (tstamp a85186a5-0d22-44fd-970d-8f3bbb01cb33))
+  )
+
+  (footprint "" (layer "F.Cu")
+    (tstamp 0cdfe295-8160-452c-ba60-b8aaf49ed085)
+    (at 121.755 83.465625)
+    (fp_text reference "REF**" (at 0 0) (layer "F.SilkS") hide
+        (effects (font (size 1.27 1.27) (thickness 0.15)))
+      (tstamp e20c84e8-e782-4216-aedd-dbab3bee728a)
+    )
+    (fp_text value "" (at 0 0) (layer "F.SilkS") hide
+        (effects (font (size 1.27 1.27) (thickness 0.15)))
+      (tstamp ee439757-2092-4491-9066-edbdb0c8a28f)
+    )
+    (pad "" np_thru_hole circle (at 0 0 270) (size 2.4 2.4) (drill 2.4) (layers "F&B.Cu" "*.Mask")
+      (pinfunction "1") (pintype "passive") (tstamp 64877948-1336-417c-a5a4-3e6e1e23cf6d))
+  )
 
   (footprint "Gateron_Low_Profile:Gateron_Low_Profile_Middle_Plate" (layer "F.Cu")
     (tstamp 0ce6556f-e9be-4ee0-a6a9-4c607a52d597)
@@ -263,6 +293,126 @@
     (pad "" np_thru_hole circle (at 0 0) (size 2.2 2.2) (drill 2.2) (layers "F&B.Cu" "*.Mask") (tstamp 548d7210-b6da-4be2-905e-e01e14d2e32d))
   )
 
+  (footprint "" (layer "F.Cu")
+    (tstamp 27d5ace2-2b92-439d-8f5b-963eddfd214a)
+    (at 174.46 84.89)
+    (fp_text reference "REF**" (at 0 0) (layer "F.SilkS") hide
+        (effects (font (size 1.27 1.27) (thickness 0.15)))
+      (tstamp 9ac15538-949d-4d92-a111-9295619cc8fe)
+    )
+    (fp_text value "" (at 0 0) (layer "F.SilkS") hide
+        (effects (font (size 1.27 1.27) (thickness 0.15)))
+      (tstamp c6a984b1-96bb-4128-8db4-4b32beb82f7c)
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 2.1 2.1) (drill 2.1) (layers "F&B.Cu" "*.Mask")
+      (pinfunction "Pin_5") (pintype "passive") (tstamp f8aa7254-5994-4024-ac3f-ca46501958ab))
+  )
+
+  (footprint "" (layer "F.Cu")
+    (tstamp 32719bfa-9cc1-4fa0-ad69-359efcec17b3)
+    (at 126.63 116.92375)
+    (fp_text reference "REF**" (at 0 0) (layer "F.SilkS") hide
+        (effects (font (size 1.27 1.27) (thickness 0.15)))
+      (tstamp 0bf693bf-46d0-4873-99bc-c104b9b5397c)
+    )
+    (fp_text value "" (at 0 0) (layer "F.SilkS") hide
+        (effects (font (size 1.27 1.27) (thickness 0.15)))
+      (tstamp 5675b37b-763d-4a5a-b5ae-f1e429f696f6)
+    )
+    (pad "" np_thru_hole oval (at 0 0 90) (size 1.4 2.5) (drill oval 1.4 2.5) (layers "F&B.Cu" "*.Mask")
+      (pinfunction "SHIELD") (pintype "passive") (tstamp 03c4b180-6ede-48d5-9f67-a46eacef8419))
+  )
+
+  (footprint "" (layer "F.Cu")
+    (tstamp 3816ae04-508f-44ec-905c-70d6c23b5cd0)
+    (at 174.46 92.51)
+    (fp_text reference "REF**" (at 0 0) (layer "F.SilkS") hide
+        (effects (font (size 1.27 1.27) (thickness 0.15)))
+      (tstamp 4e311423-e9bb-4727-aa3d-20b43865035c)
+    )
+    (fp_text value "" (at 0 0) (layer "F.SilkS") hide
+        (effects (font (size 1.27 1.27) (thickness 0.15)))
+      (tstamp 7fd040cb-4bca-474c-ad46-4eeea0a4888a)
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 2.1 2.1) (drill 2.1) (layers "F&B.Cu" "*.Mask")
+      (pinfunction "Pin_2") (pintype "passive") (tstamp c773076e-3f1f-4ff5-9ec4-ac20aa9cc671))
+  )
+
+  (footprint "" (layer "F.Cu")
+    (tstamp 443e272b-6aed-4b15-9077-069eedacd0c9)
+    (at 121.755 89.965625)
+    (fp_text reference "REF**" (at 0 0) (layer "F.SilkS") hide
+        (effects (font (size 1.27 1.27) (thickness 0.15)))
+      (tstamp c186995b-ae4b-4cda-ab2e-4d69ef7b79f6)
+    )
+    (fp_text value "" (at 0 0) (layer "F.SilkS") hide
+        (effects (font (size 1.27 1.27) (thickness 0.15)))
+      (tstamp ad61df08-dd88-4c63-a43c-2f51d887b255)
+    )
+    (pad "" np_thru_hole circle (at 0 0 270) (size 2.4 2.4) (drill 2.4) (layers "F&B.Cu" "*.Mask")
+      (pinfunction "2") (pintype "passive") (tstamp 4b092c27-f0eb-4090-b23d-8280701e1cab))
+  )
+
+  (footprint "" (layer "F.Cu")
+    (tstamp 52d3191b-fd79-49ba-8905-b46c119a3490)
+    (at 122.45 116.92375)
+    (fp_text reference "REF**" (at 0 0) (layer "F.SilkS") hide
+        (effects (font (size 1.27 1.27) (thickness 0.15)))
+      (tstamp 64a8d66c-9375-4bb0-8d46-5905ac77d887)
+    )
+    (fp_text value "" (at 0 0) (layer "F.SilkS") hide
+        (effects (font (size 1.27 1.27) (thickness 0.15)))
+      (tstamp 798ade33-c7c6-4723-883b-ef6d0452b838)
+    )
+    (pad "" np_thru_hole oval (at 0 0 90) (size 1.4 2) (drill oval 1.4 2) (layers "F&B.Cu" "*.Mask")
+      (pinfunction "SHIELD") (pintype "passive") (tstamp d9058200-0fa3-4ef9-9988-3667d2b7493d))
+  )
+
+  (footprint "" (layer "F.Cu")
+    (tstamp 55907e70-135c-4d02-817c-63a2027c18db)
+    (at 126.63 125.56375)
+    (fp_text reference "REF**" (at 0 0) (layer "F.SilkS") hide
+        (effects (font (size 1.27 1.27) (thickness 0.15)))
+      (tstamp c62bfe0d-209c-47af-b3f3-30ea2cd62a32)
+    )
+    (fp_text value "" (at 0 0) (layer "F.SilkS") hide
+        (effects (font (size 1.27 1.27) (thickness 0.15)))
+      (tstamp a78ddffe-e954-4202-8c19-de346ab5d74c)
+    )
+    (pad "" np_thru_hole oval (at 0 0 90) (size 1.4 2.5) (drill oval 1.4 2.5) (layers "F&B.Cu" "*.Mask")
+      (pinfunction "SHIELD") (pintype "passive") (tstamp ce2332f6-77fb-45e9-9a98-c6979702cf67))
+  )
+
+  (footprint "" (layer "F.Cu")
+    (tstamp 5cff22fb-bbfa-47be-a4ca-e8056e8e1356)
+    (at 170.775 118.8625)
+    (fp_text reference "REF**" (at 0 0) (layer "F.SilkS") hide
+        (effects (font (size 1.27 1.27) (thickness 0.15)))
+      (tstamp e951ff2f-0e4c-434b-82c2-16941db27bdb)
+    )
+    (fp_text value "" (at 0 0) (layer "F.SilkS") hide
+        (effects (font (size 1.27 1.27) (thickness 0.15)))
+      (tstamp f0637133-f556-49a3-9934-5862205655ee)
+    )
+    (pad "" np_thru_hole oval (at 0 0 90) (size 2 2.4) (drill oval 2 2.4) (layers "F&B.Cu" "*.Mask")
+      (pinfunction "Ring_1") (pintype "passive") (tstamp ca3d0dee-7043-4b41-b9b6-41b9ff8a6082))
+  )
+
+  (footprint "" (layer "F.Cu")
+    (tstamp 79301e4e-b947-4b7b-98b5-cfddc654efbe)
+    (at 122.45 125.56375)
+    (fp_text reference "REF**" (at 0 0) (layer "F.SilkS") hide
+        (effects (font (size 1.27 1.27) (thickness 0.15)))
+      (tstamp aad37c0b-cc73-4e26-8370-1d74bbda33cd)
+    )
+    (fp_text value "" (at 0 0) (layer "F.SilkS") hide
+        (effects (font (size 1.27 1.27) (thickness 0.15)))
+      (tstamp 70a0ca8c-c4a5-4070-872f-6298b992e2e1)
+    )
+    (pad "" np_thru_hole oval (at 0 0 90) (size 1.4 2) (drill oval 1.4 2) (layers "F&B.Cu" "*.Mask")
+      (pinfunction "SHIELD") (pintype "passive") (tstamp eca5a4e2-1f32-4549-9753-a6a12f251783))
+  )
+
   (footprint "Gateron_Low_Profile:Gateron_Low_Profile_Middle_Plate_Stabilizer_2U" (layer "F.Cu")
     (tstamp 85364e7d-14fa-457a-8771-ecadac884d33)
     (at 148.425 123.625)
@@ -301,6 +451,51 @@
       (stroke (width 0.15) (type default)) (layer "Edge.Cuts") (tstamp 73a6515a-540a-457e-9097-9c300cb7933d))
   )
 
+  (footprint "" (layer "F.Cu")
+    (tstamp 948c294d-ea63-48b8-a3e4-e954bfabddb4)
+    (at 174.46 89.97)
+    (fp_text reference "REF**" (at 0 0) (layer "F.SilkS") hide
+        (effects (font (size 1.27 1.27) (thickness 0.15)))
+      (tstamp 71cfc531-d62a-4a25-aa8e-82b426f370e9)
+    )
+    (fp_text value "" (at 0 0) (layer "F.SilkS") hide
+        (effects (font (size 1.27 1.27) (thickness 0.15)))
+      (tstamp 7de53ed3-b803-4629-86d8-1c8154d122f8)
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 2.1 2.1) (drill 2.1) (layers "F&B.Cu" "*.Mask")
+      (pinfunction "Pin_3") (pintype "passive") (tstamp 931d84c0-2fa8-4eed-9f41-968967a42a62))
+  )
+
+  (footprint "" (layer "F.Cu")
+    (tstamp ad00cc22-405c-47ef-991a-86b942bb06c0)
+    (at 174.46 87.43)
+    (fp_text reference "REF**" (at 0 0) (layer "F.SilkS") hide
+        (effects (font (size 1.27 1.27) (thickness 0.15)))
+      (tstamp 0a88176d-f029-4460-88e1-fde9628a7a87)
+    )
+    (fp_text value "" (at 0 0) (layer "F.SilkS") hide
+        (effects (font (size 1.27 1.27) (thickness 0.15)))
+      (tstamp 2e64dfd0-edee-4be2-828b-7b65fd7515da)
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 2.1 2.1) (drill 2.1) (layers "F&B.Cu" "*.Mask")
+      (pinfunction "Pin_4") (pintype "passive") (tstamp 600d04fa-f475-4807-a0b5-c9de585ec697))
+  )
+
+  (footprint "" (layer "F.Cu")
+    (tstamp bfa496c3-2a9c-4f89-b806-ff2cf95a4a2b)
+    (at 166.775 118.8625)
+    (fp_text reference "REF**" (at 0 0) (layer "F.SilkS") hide
+        (effects (font (size 1.27 1.27) (thickness 0.15)))
+      (tstamp be0ad82d-3fe3-46bf-8a94-10ad59decd9e)
+    )
+    (fp_text value "" (at 0 0) (layer "F.SilkS") hide
+        (effects (font (size 1.27 1.27) (thickness 0.15)))
+      (tstamp d77890f1-668e-4dbd-8ded-567de6d34679)
+    )
+    (pad "" np_thru_hole oval (at 0 0 90) (size 2 2.4) (drill oval 2 2.4) (layers "F&B.Cu" "*.Mask")
+      (pinfunction "Tip") (pintype "passive") (tstamp 16d72b2f-b578-4a76-823f-c4b0a30ca58b))
+  )
+
   (footprint "MountingHole:MountingHole_2.2mm_M2" (layer "F.Cu")
     (tstamp d05ac96c-2df1-4abe-a51f-22c5117540e7)
     (at 175 78)
@@ -324,6 +519,21 @@
     (fp_circle (center 0 0) (end 2.45 0)
       (stroke (width 0.05) (type solid)) (fill none) (layer "F.CrtYd") (tstamp fc4af3a5-e9fc-4a9f-9ce8-69610976ab61))
     (pad "" np_thru_hole circle (at 0 0) (size 2.2 2.2) (drill 2.2) (layers "F&B.Cu" "*.Mask") (tstamp b1307b49-3386-47d8-bfc9-54ee68dc7e7f))
+  )
+
+  (footprint "" (layer "F.Cu")
+    (tstamp d5e2f415-ac84-41a2-a914-3a56e6164c14)
+    (at 165.575 123.6625)
+    (fp_text reference "REF**" (at 0 0) (layer "F.SilkS") hide
+        (effects (font (size 1.27 1.27) (thickness 0.15)))
+      (tstamp b6cd1fa6-e610-411d-8a57-b873125d35e0)
+    )
+    (fp_text value "" (at 0 0) (layer "F.SilkS") hide
+        (effects (font (size 1.27 1.27) (thickness 0.15)))
+      (tstamp c2f00257-f142-4d08-a9c2-50729d088f80)
+    )
+    (pad "" np_thru_hole oval (at 0 0 90) (size 2 2.4) (drill oval 2 2.4) (layers "F&B.Cu" "*.Mask")
+      (pinfunction "Sleeve") (pintype "passive") (tstamp ffa2611d-f246-4840-9060-25aa6d8b0464))
   )
 
   (footprint "Gateron_Low_Profile:Gateron_Low_Profile_Middle_Plate" (layer "F.Cu")
@@ -362,6 +572,36 @@
       (stroke (width 0.15) (type default)) (layer "Edge.Cuts") (tstamp 0dd95bb9-98be-4217-a012-21f17d618492))
     (fp_arc (start 7.5 6.7) (mid 7.412132 6.912132) (end 7.2 7)
       (stroke (width 0.15) (type default)) (layer "Edge.Cuts") (tstamp 72d9ec1b-6f12-44a4-ba53-c544a8794586))
+  )
+
+  (footprint "" (layer "F.Cu")
+    (tstamp dcb4c85f-ee63-4ad7-9a7a-990c032661ae)
+    (at 174.46 82.35)
+    (fp_text reference "REF**" (at 0 0) (layer "F.SilkS") hide
+        (effects (font (size 1.27 1.27) (thickness 0.15)))
+      (tstamp f747002b-2b62-4b63-9948-db2d3ece22e1)
+    )
+    (fp_text value "" (at 0 0) (layer "F.SilkS") hide
+        (effects (font (size 1.27 1.27) (thickness 0.15)))
+      (tstamp 6347507d-03ee-40b3-ac4e-bf495f8fbb04)
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 2.1 2.1) (drill 2.1) (layers "F&B.Cu" "*.Mask")
+      (pinfunction "Pin_6") (pintype "passive") (tstamp bbc54244-857c-4b33-976f-07c3e57b860e))
+  )
+
+  (footprint "" (layer "F.Cu")
+    (tstamp eca2c143-29ca-40d2-b28f-fc9dc4acf8b1)
+    (at 173.775 118.8625)
+    (fp_text reference "REF**" (at 0 0) (layer "F.SilkS") hide
+        (effects (font (size 1.27 1.27) (thickness 0.15)))
+      (tstamp 946db935-f202-4bea-8291-4cff45e0bec0)
+    )
+    (fp_text value "" (at 0 0) (layer "F.SilkS") hide
+        (effects (font (size 1.27 1.27) (thickness 0.15)))
+      (tstamp 66cb83a8-57c2-4cb9-abaa-4d7bcf3c68cd)
+    )
+    (pad "" np_thru_hole oval (at 0 0 90) (size 2 2.4) (drill oval 2 2.4) (layers "F&B.Cu" "*.Mask")
+      (pinfunction "Ring_2") (pintype "passive") (tstamp 44e39142-a4a4-4b7e-a196-bce4d79dfd2b))
   )
 
   (footprint "MountingHole:MountingHole_2.2mm_M2" (layer "F.Cu")
