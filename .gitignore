@@ -4,6 +4,5 @@
 *.zip
 .DS_Store
 .venv/
-/Orders
 /Production
 /*-panelized.kicad_*
