@@ -3,5 +3,7 @@
 *.kicad_prl
 *.zip
 .DS_Store
+.venv/
 /Orders
 /Production
+/*-panelized.kicad_*

@@ -1,0 +1,30 @@
+{
+    "layout": {
+        "rows": 1,
+        "cols": 1,
+        "space": "2mm"
+    },
+    "tabs": {
+        "type": "fixed",
+        "width": "5mm",
+        "space": "2mm",
+        "vcount": 2
+    },
+    "cuts": {
+        "type": "mousebites",
+        "drill": "0.5mm",
+        "spacing": "0.75mm",
+        "offset": "-0.25mm",
+        "prolong": "1mm"
+    },
+    "framing": {
+      "type": "railstb",
+      "width": "5mm",
+      "space": "2mm"
+    },
+    "post": {
+        "type": "auto",
+        "millradius": "1mm",
+        "copperfill": false
+    }
+}
